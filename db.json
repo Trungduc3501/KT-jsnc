@@ -1,0 +1,57 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Lập trình JavaScript cơ bản",
+      "duration": 30,
+      "thumbnail": "https://miro.medium.com/v2/1*gyKubZIf0iJLskYq6HAnaQ.jpeg",
+      "category": "Lập trình"
+    },
+    {
+      "id": "2",
+      "name": "ReactJS từ cơ bản đến nâng cao",
+      "duration": 45,
+      "thumbnail": "https://letdiv.com/wp-content/uploads/2024/04/khoa-hoc-react.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Samsung1111",
+      "duration": "10",
+      "thumbnail": "12312312111",
+      "category": "Backend",
+      "id": "GPZn2J-"
+    }
+  ],
+  "users": [
+    {
+      "email": "trungduc3501@gmail.com",
+      "password": "$2a$10$aP/GbpG9fXWbHgflPius3.i0EKCIgA1Q9TW9Eq59s1DH/4UbQ9BbK",
+      "name": "Trung Đức",
+      "id": 1
+    },
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$4BWWnyGn7nF/KIM1IYIfuufgn.50oQePWNHZewHNymqC4tdJ7uiv.",
+      "name": "Trung Đức1",
+      "id": 2
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$hImlVdlW6Ci4VDGQ7vrGTuIkDZcb1FA5YZqpXXMriMyIt3.geitmK",
+      "name": "Trung Đức2",
+      "id": 3
+    },
+    {
+      "email": "trungducbadao@gmail.com",
+      "password": "$2a$10$izeJu1KXRTaXg0s04xoZcOWpvHPlXiEMvqYZg3fbdT1lhjTHKWtIm",
+      "name": "Trung Đức5",
+      "id": 4
+    },
+    {
+      "email": "asfassad@gmail.com",
+      "password": "$2a$10$dCxkL7VKO2lrJbWMY6W/HekY7Z5Uz7hJWmgZLxLn0lqhokuj0sm4q",
+      "name": "Trung Đức4",
+      "id": 5
+    }
+  ]
+}

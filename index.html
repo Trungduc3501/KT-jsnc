@@ -98,6 +98,8 @@
               class="w-full rounded-lg border border-slate-300 bg-white px-4 py-3 outline-none transition focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
             >
               <option value="id">ID</option>
+              <option value="duration">Duration</option>
+              <option value="name">Name</option>
             </select>
           </div>
 
@@ -128,18 +130,17 @@
                 </th>
 
                 <th class="border-b border-slate-200 px-4 py-3">
-                  Tên tin tuyển dụng
+                  Name
                 </th>
 
                 <th class="border-b border-slate-200 px-4 py-3 text-center">
-                  Thời lượng
-                </th>
+                  Duration
 
                 <th class="border-b border-slate-200 px-4 py-3 text-center">
-                  Hình ảnh
+                  thumbnail
                 </th>
 
-                <th class="border-b border-slate-200 px-4 py-3">Danh mục</th>
+                <th class="border-b border-slate-200 px-4 py-3">category</th>
 
                 <th class="border-b border-slate-200 px-4 py-3 text-center">
                   Chức năng
@@ -148,53 +149,7 @@
             </thead>
 
             <tbody id="list" class="divide-y divide-slate-100">
-              <tr class="transition hover:bg-slate-50">
-                <td class="border-b border-slate-100 px-4 py-3 text-center">
-                  1
-                </td>
-
-                <td
-                  class="border-b border-slate-100 px-4 py-3 font-medium text-slate-800"
-                >
-                  Nhân viên Frontend Developer
-                </td>
-
-                <td class="border-b border-slate-100 px-4 py-3 text-center">
-                  Toàn thời gian
-                </td>
-
-                <td class="border-b border-slate-100 px-4 py-3 text-center">
-                  <img
-                    src="https://placehold.co/80x50?text=Job"
-                    alt="Hình ảnh tuyển dụng"
-                    class="mx-auto h-12 w-20 rounded object-cover"
-                  />
-                </td>
-
-                <td class="border-b border-slate-100 px-4 py-3">
-                  <span
-                    class="rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-700"
-                  >
-                    Công nghệ thông tin
-                  </span>
-                </td>
-
-                <td class="border-b border-slate-100 px-4 py-3 text-center">
-                  <div class="flex items-center justify-center gap-2">
-                    <button
-                      class="rounded bg-blue-500 px-3 py-1.5 text-white transition hover:bg-blue-600"
-                    >
-                      Sửa
-                    </button>
-
-                    <button
-                      class="rounded bg-red-500 px-3 py-1.5 text-white transition hover:bg-red-600"
-                    >
-                      Xóa
-                    </button>
-                  </div>
-                </td>
-              </tr>
+              
             </tbody>
           </table>
         </div>
@@ -203,5 +158,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/axios@1.7.7/dist/axios.min.js"></script>
     <script src="./index.js"></script>
+    <script src="logout.js"></script>
   </body>
 </html>
